@@ -1,0 +1,460 @@
+@media screen and (max-width:1199px) {
+.header-menu {
+    padding-left: 50px;
+}
+.navigation ul li a{
+    font-size: 14px;
+}
+.navigation ul li {
+    padding-right: 12px;
+}
+.hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.hero-content p{
+    font-size: 14px;
+    max-width: 836px;
+    padding: 0 40px;
+}
+.hero-img img {
+    height: 250px;
+}
+.banner-slider .slick-arrow {
+    width: 35px;
+    height: 35px;
+}
+.video-section {
+    padding-bottom: 70px;
+}
+.product-main {
+    padding-bottom: 70px;
+}
+.product-top h2 {
+    font-size: 34px;
+    padding: 0 30px;
+}
+.inspiration {
+    padding-bottom: 70px;
+}
+.blog a {
+    font-size: 14px;
+    padding: 14px 36px;
+}
+.inspiration-text h2{
+    font-size: 34px;
+}
+.dealer h2{
+    font-size: 34px;
+}
+.footer-top-img a img {
+    width: 200px;
+}
+.footer-top {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.blog-main::before {
+    width: calc(100% - 200px);
+}
+.center-card {
+    row-gap: 20px;
+}
+.card-text h4 {
+    font-size: 20px;
+}
+.card-text a {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+}
+.brand-text h4 {
+    font-size: 20px;
+    width: 174px;
+}
+.dealer img {
+    width: 80px;
+    height: 95px;
+}
+.design-text h4 {
+    font-size: 18px;
+}
+.more a {
+    font-size: 14px;
+}
+.design-text p {
+    padding: 9px 0px 14px 0px;
+}
+.video-icon {
+    width: 85px;
+    height: 85px;
+}
+
+.video-icon img {
+    width: 28px;
+}
+}
+@media screen and (max-width:991px){
+
+    .icons{
+        padding-right: 40px;
+    }
+    .toggle-bar{
+        display: block;
+        color: aliceblue;
+        background: none;
+        font-size: 24px;
+        position: absolute;
+        right: 15px;
+        top: 32px;
+    }
+    .navigation ul{
+        padding-left: 10px;
+        position: absolute;
+        right: 0;
+        top: 88px;
+        width: 100%;
+        z-index: 2;
+        background-color: burlywood;
+        display: none;
+    }
+    .navigation ul li{
+        padding-top: 10px;
+    }
+    .navigation ul li:last-child{
+        padding-bottom: 10px;
+    }
+
+.toggle-bar.open-menu i:before {
+    content: "\f00d";
+}
+    
+.banner-slider .slick-arrow {
+    width: 30px;
+    height: 30px;
+    left: 10px;
+}
+.hero-content p {
+    max-width: 670px;
+}
+.hero-content h1 {
+    font-size: 36px;
+}
+.banner-slider .slick-next.slick-arrow {
+    right: 10px;
+}
+.video-section{
+    padding: 50px 0;
+}
+.product-top h2 {
+    font-size: 28px;
+    padding: 0 25px;
+}
+.card-text a {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+}
+.card-text h4 {
+    font-size: 18px;
+}
+.product-main {
+    padding-bottom: 50px;
+}
+.inspiration-text h2 {
+    font-size: 28px;
+    padding-right: 32px;
+}
+.blog a {
+    padding: 10px 24px;
+}
+.blog-main::before {
+    width: calc(100% - 185px);
+}
+.video-icon {
+    width: 75px;
+    height: 75px;
+}
+.design-main .slick-arrow {
+    width: 30px;
+    height: 30px;
+}
+.design-main .slick-arrow::before {
+    width: 10px;
+    height: 10px;
+}
+.blog-main {
+    margin-bottom: 30px;
+}
+.inspiration {
+    padding-bottom: 50px;
+}
+.brand-text h4 {
+    font-size: 16px;
+    width: 140px;
+}
+.brand-text {
+    padding-bottom: 34px;
+}
+.dealer h2 {
+    font-size: 28px;
+}
+.dealer img {
+    width: 70px;
+    height: 80px;
+}
+.footer-menu{
+    margin-right: 20px;
+}
+.footer-top {
+    padding: 35px 0;
+}
+.footer-top-img a img {
+    width: 190px;
+}
+.footer-main{
+    flex-wrap: wrap;
+}
+.footer-contact{
+    margin-top: 20px;
+}
+.footer-bottom-text p {
+    font-size: 12px;
+}
+.design-img img {
+    width: 350px;
+    height: 200px;
+}
+}
+@media screen and (max-width:767px){
+.navigation ul{
+    top: 82px;
+}
+.navigation ul li{
+    padding-top: 5px;
+}
+.navigation ul li:last-child {
+    padding-bottom: 5px;
+}
+.header-logo a img {
+    width: 120px;
+}
+.header-main {
+    padding: 18.5px 0;
+}
+.hero-content h1 {
+    font-size: 32px;
+}
+.video-icon img {
+    width: 24px;
+}
+.video-icon {
+    width: 70px;
+    height: 70px;
+}
+.product-top h2 {
+    font-size: 24px;
+    padding: 0 15px;
+}
+.video-section {
+    padding: 40px 0;
+}
+.product-top{
+    margin-bottom: 20px;
+}
+.product-main {
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+.left-card{
+    width: calc(50% - 10px);
+}
+.center-card {
+    order: 3;
+    width: 100%;
+    row-gap: 0;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+.inspiration-text h2 {
+    font-size: 24px;
+    padding-right: 18px;
+}
+.blog-main::before {
+    width: calc(100% - 155px);
+}
+.blog a {
+    padding: 8px 18px;
+}
+.design-text h4 {
+    font-size: 16px;
+}
+.blog-main {
+    margin-bottom: 20px;
+}
+.inspiration {
+    padding-bottom: 40px;
+}
+.brand-text {
+    padding-bottom: 24px;
+}
+.dealer h2 {
+    font-size: 24px;
+        padding-left: 20px;
+}
+.footer-top-img a img {
+    width: 168px;
+}
+.footer-menu {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.footer-contact{
+    width: 100%;
+    margin-top: 0;
+}
+.footer-any-img {
+    padding-top: 50px;
+}
+.footer-information {
+    padding-bottom: 50px;
+}
+.design-main {
+    padding: 0 50px;
+}
+.design-img img {
+   width: 100%; 
+   height: 100%;
+}
+}
+@media screen and (max-width:575px){
+    .icons{
+        display: none;
+    }
+.footer-contact ul li a {
+    width: 40px;
+    height: 40px;
+    margin-right: 7px;
+}
+.navigation ul {
+    top: 77px;
+}
+.hero-content p {
+    line-height: 20px;
+}
+.hero-content h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+.banner-slider .slick-arrow {
+    width: 26px;
+    height: 26px;
+    left: 8px;
+}
+.banner-slider .slick-next.slick-arrow {
+    right: 8px;
+}
+.video-img img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+.video-icon img {
+    width: 17px;
+}
+.video-icon {
+    width: 45px;
+    height: 45px;
+    border-width: 2px;
+}
+.product-top h2 {
+    font-size: 20px;
+    padding: 0 12px;
+}
+.left-card {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.center-card{
+    flex-wrap: wrap;
+    margin-top: 20;
+}
+.left-card:last-child{
+    margin-bottom: 0;
+}
+.card-text h4 {
+    font-size: 16px;
+}
+.card-text a {
+    width: 25px;
+    height: 25px;
+    font-size: 10px;
+}
+.blog a {
+    font-size: 12px;
+    padding: 6px 15px;
+}
+.blog-main::before {
+    width: calc(100% - 125px);
+}
+.inspiration-text h2 {
+    font-size: 20px;
+    padding-right: 10px;
+}
+.design-main {
+    padding: 0;
+}
+.video-section {
+    padding: 35px 0;
+}
+.product-main{
+    padding-bottom: 35px;
+}
+.design-text p {
+    padding: 5px 0px 10px 0px;
+}
+.inspiration {
+    padding-bottom: 25px;
+}
+.dealer{
+    flex-wrap: wrap;
+        padding: 28px 0;
+}
+.dealer h2 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 7px;
+}
+.footer-information{
+    padding: 30px 0;
+}
+.footer-bottom-text {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 8px;
+}
+.footer-top-img a img {
+    width: 150px;
+}
+.toggle-bar{
+    top: 25px;
+}
+.flag-left {
+    width: 110px;
+    height: 32px;
+}
+.footer-menu ul li {
+    padding-top: 8px;
+}
+.footer-menu ul li a{
+    font-size: 12px;
+}
+.footer-contact h4 {
+    font-size: 14px;
+    padding-top: 12px;
+}
+
+}
